@@ -126,3 +126,8 @@ wordpress/
 ├── .htaccess / nginx.conf # Server config
 └── .env (if using Bedrock) # Environment variables (optional setup)
 ```
+
+
+---
+
+*Crafted with ❤️ and caffeine by Pratyush (PT) — guiding Wordpress journeys from zero to hero.*
