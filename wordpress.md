@@ -95,7 +95,7 @@ A focused, minimal yet powerful roadmap to master WordPress as a team lead — i
 ---
 
 ## 🧭 WordPress File Structure at a Glance
-
+```
 wordpress/
 ├── wp-admin/ # Core admin files (Do NOT touch)
 ├── wp-includes/ # Core functionality files (Do NOT touch)
@@ -106,6 +106,8 @@ wordpress/
 │ │ ├── post-types.php # CPTs, taxonomies
 │ │ ├── shortcodes.php # Custom shortcodes
 │ │ └── assets/ # JS, CSS used in plugin
+│ │ ├── js/
+│ │ └── css/
 │ │
 │ └── themes/ # Active theme directory
 │ └── my-theme/
@@ -116,10 +118,11 @@ wordpress/
 │ ├── archive.php # List view for CPTs/posts
 │ ├── functions.php # Theme features, menus, etc.
 │ ├── template-parts/ # Reusable HTML chunks
-│ ├── assets/
-│ │ ├── js/
-│ │ └── css/
+│ └── assets/
+│ ├── js/
+│ └── css/
 │ └── screenshot.png # Theme preview image
 ├── wp-config.php # DB credentials, WP constants
 ├── .htaccess / nginx.conf # Server config
 └── .env (if using Bedrock) # Environment variables (optional setup)
+```
